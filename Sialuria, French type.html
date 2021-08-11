@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://127.0.0.1:8000/index/Sialuria,%20French%20type/ -->
+<html lang="zh-hans" class=" mdzr-js mdzr-borderradius mdzr-boxshadow mdzr-cssanimations mdzr-svg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="ROBOTS" content="ALL">
+    <meta name="MSSmartTagsPreventParsing" content="true">
+    <meta name="Copyright" content="Django Software Foundation">
+    <meta name="keywords" content="Python, Django, framework, open-source">
+    <meta name="description" content="">
+
+
+
+  <link rel="search" type="application/opensearchdescription+xml" href="https://docs.djangoproject.com/zh-hans/3.2/search/description/" title="孟德尔遗传病数据库">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="https://static.djangoproject.com/img/icon-touch.e4872c4da341.png">
+    <link rel="icon" sizes="192x192" href="https://static.djangoproject.com/img/icon-touch.e4872c4da341.png">
+    <link rel="shortcut icon" href="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico">
+    <meta name="msapplication-TileColor" content="#113228">
+    <meta name="msapplication-TileImage" content="https://static.djangoproject.com/img/icon-tile.b01ac0ef9f67.png">
+
+    <title>Sialuria, French type</title>
+
+    <link rel="stylesheet" href="./Sialuria, French type_files/output.89da94f298fe.css">
+    <script src="./Sialuria, French type_files/webfontloader.e75218f5f090.js.下载"></script>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,300,700,400&amp;subset=latin"><script>
+    WebFont.load({
+      custom: {
+        families: ['FontAwesome', 'Fira+Mono'],
+      },
+      google: {
+        families: ['Roboto:400italic,700italic,300,700,400:latin'
+        ]
+      },
+      classes: false,
+      events: false,
+      timeout: 1000
+    });
+    </script>
+    <script src="./Sialuria, French type_files/modernizr.3b36762e418a.js.下载"></script>
+
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="main.2f2c378dba28" src="./Sialuria, French type_files/main.2f2c378dba28.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mod/mobile-menu" src="./Sialuria, French type_files/mobile-menu.841726ee903a.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mod/search-key" src="./Sialuria, French type_files/search-key.f3c0a6fcfedd.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="./Sialuria, French type_files/jquery.min.87e69028f78d.js.下载"></script></head>
+
+  <body id="generic" class="">
+
+    <div role="banner" id="top" style="width: auto; height: fit-content">
+  <div class="container" style="height: fit-content; width: auto">
+      <p style="font-size: x-large; color: darkseagreen"> Genetic Disease database</p>
+      <!--
+      <p class="meta" style="color: darkseagreen">The databese</p>
+    -->
+    <div class="menu-button"><i class="icon icon-reorder"></i><span>Menu</span></div><div role="navigation" class="nav-menu-on">
+      <ul>
+        <li>
+          <a href="http://127.0.0.1:8000/index/">home</a>
+        </li>
+        <li>
+          <a href="https://code.djangoproject.com/">Issues</a>
+        </li>
+        <li>
+          <a href="https://www.djangoproject.com/foundation/">About</a>
+        </li>
+          <li>
+          <a href="https://code.djangoproject.com/">login</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+    <div class="copy-banner">
+      <div class="container
+container--flex container--flex--wrap--mobile
+">
+
+<h1> </h1>
+
+
+<form action="https://docs.djangoproject.com/zh-hans/3.2/search/" class="search form-input" role="search">
+  <label class="visuallyhidden" for="id_q">Search:</label>
+    <input type="search" name="q" placeholder="疾病名称" id="id_q">
+
+    <button type="submit">
+      <i class="icon icon-search"></i>
+      <span class="visuallyhidden">搜索</span>
+    </button>
+</form>
+
+
+      </div>
+    </div>
+    <div id="billboard">
+        <div class="copy-banner" style="background: #44B78B;text-align:center;padding: 1em 3em;">
+        <div class="container">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container sidebar-right">
+      <div role="main">
+
+
+
+
+
+
+<div id="version-switcher">
+  <ul id="faq-link">
+    <li class="current-link">
+      <a href="https://docs.djangoproject.com/zh-hans/3.2/faq/help/">
+        <span>Getting Help</span>
+      </a>
+    </li>
+  </ul>
+  <ul id="doc-languages" class="language-switcher">
+
+
+
+    <li class="current" title="点击左侧的链接以切换到另一种语言。">
+      <span>语言： <strong>zh-hans</strong></span>
+    </li>
+  </ul>
+
+
+
+
+    <li class="current" title="此文档是为 Django 3.2 编写的。 点击左侧的链接查看其它版本">
+       <span>文档版本：
+         <strong>3.2</strong>
+       </span>
+    </li>
+  
+</div>
+
+<div id="docs-content">
+<div class="section" id="s-disease-name">
+<span id="disease-name"></span><h1 style="font-size: xx-large">Sialuria, French type<a class="headerlink" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#disease-name" title="永久链接至标题">¶</a></h1>
+<p class="rubric" style="font-size: xx-large">法国型唾液酸尿症</p>
+
+<h3 class="contents-title">疾病信息汇总</h3>
+
+
+<ul>
+<a style="color: black; font-size: medium" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#basic-info">疾病基本信息</a>    <a style="color: black; font-size: medium" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#clinical-feature">主要临床表现</a>    <a style="color: black; font-size: medium" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#disease-feature">疾病特征信息</a>    <a style="color: black; font-size: medium" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#examination-diagnosis">检查与诊断</a>    <a style="color: black; font-size: medium" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#treatment">治疗方案</a>    <a style="color: black; font-size: medium" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#genetic-conuselling">遗传咨询</a>
+</ul>
+
+
+
+<!--
+<ul class="jumplink-list">
+        <li class="section-jump-link head-1" link-destination="284185427">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#basic-info">疾病基本信息</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="284185428">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#clinical-feature">主要临床表现</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="284185443">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#disease-feature">疾病特征信息</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="284185470">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#examination-diagnosis">检查与诊断</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="284185493">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#treatment">治疗方案</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="284185505">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#genetic-conuselling">遗传咨询</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1 backReferenceLink" link-destination="284185509">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#others">其他</a>
+            </div>
+        </li>
+</ul>
+-->
+
+<div class="section" id="s-basic-info">
+<span id="s-index-basic-info"></span><span id="basic-info"></span><span id="index-basic-info"></span><h2 style="color: darkcyan">疾病基本信息<a class="headerlink" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#basic-info" title="永久链接至标题">¶</a></h2>
+<p> </p>
+<ul class="simple">
+
+<li><strong>疾病其他中文别名：</strong> 涎尿症 </li>
+    <li><strong>疾病其他英文别名：</strong> Sialuria </li>
+    <li><strong>Orpha Number：</strong> 3166 </li>
+    <li><strong>OMIM Number：</strong> 269921 </li>
+    <li><strong>疾病简介：</strong> 是一种极为罕见的代谢紊乱病，由 Montreuil和Fontaine等人于1968年首次报道。本病世界范围内仅报道不超过10例，病因为GNE基因变异引起的唾液酸前体物质N-乙酰神经氨酸生成过多，导致唾液酸生成增多，影响细胞表面分子修饰。本病为常染色体显性遗传，体征和症状多种多样，大多发生在婴儿期，包括一过性发育不全、新生儿黄疸、肝脏肿大、小细胞性贫血、频繁的上呼吸道感染、胃肠炎，脱水、粗大面容等。目前尚无有效的治疗方式。 </li>
+    <li><strong>致病基因名称：</strong> GNE（N-acetylmannosamine kinase，N-乙酰甘露糖胺激酶） </li>
+    <li><strong>致病基因基因位置：</strong> 9p13.3&nbsp; </li>
+    <li><strong>致病基因基因描述：</strong> GNE基因编码一种双功能酶，能启动和调节唾液酸前体N-乙酰神经氨酸（NeuAc）的生物合成。它是唾液酸生物合成途径中的限速酶。细胞表面分子的唾液酸修饰对其在许多生物学过程中的功能至关重要，包括细胞粘附和信号转导。细胞表面分子的唾液酸差异化也与恶性细胞的致瘤性和转移行为有关。该基因变异可导致唾液酸前体物质生成过多，唾液酸合成过量从而引起唾液酸尿症。 </li>
+    <li><strong>致病基因与其他疾病的关系：</strong> 该基因突变也可以导致常染色体隐性包涵体肌病和Nonaka肌病 </li>
+    <li><strong>其他：</strong>  </li>
+</ul>
+</div>
+
+<div class="section" id="s-clinical-feature">
+<span id="clinical-feature"></span><h2 style="color: darkcyan">主要临床表现<a class="headerlink" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#clinical-feature" title="永久链接至标题">¶</a></h2>
+<p> </p>
+<ul class="simple">
+    <li><strong>综合描述：</strong> （1）整体发育迟缓；粗大的面部特征；上腭高窄；眼距宽；耳朵低矮；眶周浮肿；前额突出；薄上唇；宽鼻粱；脊柱畸形；双关节；内眦赘皮；第二、三脚趾融合畸形；拇指长；（2）多动症；肌张力下降；轻度智力下降；记忆力减退；癫痫；（3）声音嘶哑；睡眠呼吸暂停；上呼吸道阻塞；（4）胆结石；消化不良；腹痛；肝肿大；脾肿大 </li>
+<li>
+    <strong>HPO分类异常：</strong>
+    
+        
+        <ul><li>头部和颈部的异常:粗大的面部特征；上腭高窄；眼距宽；耳朵低矮；眶周浮肿；前额突出；薄上唇；宽鼻粱</li></ul>
+        
+    
+        
+    
+        
+        <ul><li>神经系统异常:多动症；肌张力下降；轻度智力下降；记忆力减退；癫痫</li></ul>
+        
+    
+        
+    
+        
+        <ul><li>声音异常:声音嘶哑</li></ul>
+        
+    
+        
+    
+        
+    
+        
+        <ul><li>生长异常:整体发育迟缓</li></ul>
+        
+    
+        
+        <ul><li>骨骼系统异常:脊柱畸形；双关节</li></ul>
+        
+    
+        
+        <ul><li>消化系统异常:胆结石；消化不良；腹痛；肝肿大</li></ul>
+        
+    
+        
+        <ul><li>免疫系统异常:脾肿大</li></ul>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <ul><li>眼部异常:内眦赘皮</li></ul>
+        
+    
+        
+        <ul><li>呼吸系统异常:睡眠呼吸暂停；上呼吸道阻塞</li></ul>
+        
+    
+        
+    
+        
+    
+        
+        <ul><li>肢体异常:第二、三脚趾融合畸形；拇指长</li></ul>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</li>
+</ul>
+</div>
+<div class="section" id="s-disease-feature">
+    <span id="disease-feature"></span><h2 style="color: darkcyan">疾病特征信息<a class="headerlink" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#disease-feature" title="永久链接至标题">¶</a></h2>
+<p> </p>
+<ul class="simple">
+<li><strong>流行病学：</strong> 目前世界范围内仅报道10例本病病例，发病率小于百万分之一 </li>
+<li><strong>患病率：</strong> 1e-06 </li>
+<li><strong>遗传模式：</strong> 常染色体显性遗传 </li>
+<li><strong>疾病特征：</strong> 体征和症状多种多样，大多发生在婴儿期，包括一过性发育不全、新生儿黄疸、肝脏肿大、小细胞性贫血、频繁的上呼吸道感染、胃肠炎，脱水、粗大面容等。 </li>
+<li><strong>其他：</strong> </li>
+</ul>
+</div>
+<div class="section" id="s-examination-diagnosis">
+<span id="examination-diagnosis"></span><h2 style="color: darkcyan">检查与诊断<a class="headerlink" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#examination-diagnosis" title="永久链接至标题">¶</a></h2>
+<p>  </p>
+<ul class="simple">
+<li><strong>实验室检查指标：</strong>  </li>
+    <li>
+    <strong>主要实验室检查异常指标：</strong>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <ul><li>尿常规-检测结果:尿唾液酸可升高</li></ul>
+        
+    
+        
+    
+        
+        <ul><li>生化检查-谷丙转氨酶（ALT）:升高</li></ul>
+        
+    
+        
+        <ul><li>生化检查-谷草转氨酶（AST）:升高</li></ul>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</li>
+
+<li><strong>基因筛查-检测结果：</strong> GNE基因突变 </li>
+<li><strong>其他检查：</strong>  </li>
+<li><strong>鉴别诊断：</strong> 由于疾病特征多变，需与多种疾病鉴别诊断，主要依赖基因检测 </li>
+<li><strong>自然病史：</strong> 暂无 </li>
+<li><strong>并发症：</strong> 暂无 </li>
+    <li><strong>预后：</strong> 预后一般，本病影响智力但不影响预期寿命，目前无有效治疗方法 </li>
+</ul>
+</div>
+
+    <div class="section" id="s-treatment">
+<span id="treatment"></span><h2 style="color: darkcyan">治疗方案<a class="headerlink" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#treatment" title="永久链接至标题">¶</a></h2>
+<p>  </p>
+<ul class="simple">
+<li><strong>使用药物及其反应：</strong> 药物治疗效果不理想；仅有常规营养支持治疗：多采用肠内营养，仅在患者肝脾肿大严重影响消化功能时采用肠外营养 </li>
+<li><strong>使用手术：</strong> 腺样体切除术；并指（趾）畸形修复术 </li>
+<li><strong>有无性别治疗差异：</strong> F </li>
+<li><strong>男性治疗方案：</strong>  </li>
+<li><strong>女性治疗方案：</strong>  </li>
+<li><strong>有无年龄治疗差异：</strong> F </li>
+    <li><strong>儿童治疗方案：</strong>  </li>
+    <li><strong>成人治疗方案：</strong>  </li>
+    <li><strong>老人治疗方案：</strong>  </li>
+</ul>
+</div>
+
+    <div class="section" id="s-genetic-conuselling">
+<span id="genetic-conuselling"></span><h2 style="color: darkcyan">遗传咨询<a class="headerlink" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#genetic-conuselling" title="永久链接至标题">¶</a></h2>
+<p>  </p>
+<ul class="simple">
+<li><strong>基因诊断综合描述：</strong> 如果临床怀疑该病，或者怀疑遗传代谢病，应作GNE基因或全外显子组（WES）检测；发现有GNE基因编码区有致病变异或致病的拷贝数变异（CNV）即可确诊；如是可疑变异或意义未明变异，可应用生物信息学手段进行变异性质预测，有条件的实验室应进行细胞层面的功能学研究。如果未发现变异，应继续全基因组检测（WGS），确定非编码区域是否存在变异。 </li>
+<li><strong>基因诊断检查方法：</strong> WES；CNV；WGS </li>
+<li><strong>先证者家族亲属发病风险评估：</strong> 确定先证者的致病基因型后，应检测其父母相应位点的基因型，确定变异来源(外显不全由父母遗传/突变)；对家族中的其他亲属，在知情同意的前提下，亦应进行GNE基因测序，然后进行发病风险评估。 </li>
+<li><strong>再次生育风险评估：</strong> 如果先证者父母基因检测正常，可正常生育。若其中一方携带变异基因且希望继续生育下一胎，首先建议选用辅助生殖的方式受孕。如果只选择自然受孕，则应作产前诊断，确定胎儿是否存在GNE基因变异。胎儿出生后，应再次进行GNE基因检测。 </li>
+<li><strong>辅助生殖评估：</strong> 对受精卵进行GNE基因检测。选择无上述基因变异的受精卵进行子宫内植入。同上进行产前诊断和新生儿基因检测。 </li>
+<li><strong>婚姻建议：</strong> 凡携带GNE基因变异者，不宜生育。如果必须生育，则参照再次生育风险评估和辅助生殖风险评估。 </li>
+    <li><strong>干预或治疗建议：</strong>  仍没有针对该病的基因治疗、细胞治疗、酶替代治疗。可根据实验室检测结果，参照治疗方案进行对症治疗。 </li>
+    <li><strong>预防：</strong> 目前除遗传咨询和产前诊断以外无有效手段。 </li>
+    <li><strong>其他：</strong>  </li>
+</ul>
+</div>
+
+    <div class="section" id="s-others">
+<span id="others"></span><h2 style="color: darkcyan">其他<a class="headerlink" href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#others" title="永久链接至标题">¶</a></h2>
+<p>  </p>
+
+<ul class="simple">
+    <li><strong>其他：</strong>  </li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="browse-horizontal">
+
+    
+     <div class="left"><a href="http://127.0.0.1:8000/index/Sialidosis%20type%20I/"><i class="icon icon-chevron-left"></i> 上一个 </a></div>
+
+
+
+  <div class="right"><a href="http://127.0.0.1:8000/index/Sitosterolemia/"> 下一个 <i class="icon icon-chevron-right"></i></a></div>
+
+
+</div>
+
+
+
+        <a href="http://127.0.0.1:8000/index/Sialuria,%20French%20type/#top" class="backtotop"><i class="icon icon-chevron-up"></i> Back to Top</a>
+      </div>
+
+
+<h1 class="visuallyhidden">附加信息</h1>
+<div role="complementary">
+
+
+
+
+  <div class="fundraising-sidebar">
+    <h2>Support us!</h2>
+<!--
+    <div class="small-heart">
+      <img src="https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg" alt="Support Django!" />
+    </div>
+
+    <div class="small-cta">
+      <ul class="list-links-small">
+        <li><a href="https://www.djangoproject.com/fundraising/">
+          El Gocho donated to the Django Software Foundation to
+          support Django development. Donate today!
+        </a></li>
+      </ul>
+    </div>
+    -->
+  </div>
+
+
+
+
+
+<!--
+  <h2>浏览</h2>
+  <ul>
+
+
+    <li>上一个： <a href="contents/">上一个</a></li>
+
+
+    <li>下一个： <a href="intro/">下一个</a></li>
+
+    <li><a href="https://docs.djangoproject.com/zh-hans/3.2/contents/">目录</a></li>
+
+    <li><a href="https://docs.djangoproject.com/zh-hans/3.2/genindex/">总目录</a></li>
+
+    <li><a href="https://docs.djangoproject.com/zh-hans/3.2/py-modindex/">Python 模块索引</a></li>
+
+
+  </ul>
+
+
+
+  <h2>当前位置</h2>
+  <ul>
+    <li>
+      <a href="https://docs.djangoproject.com/zh-hans/3.2/">Django 3.2 文档</a>
+
+      <ul><li>Django 文档</li></ul>
+
+    </li>
+  </ul>
+
+
+
+  <h2 id="getting-help-sidebar">获取帮助</h2>
+  <dl class="list-links">
+    <dt><a href="https://docs.djangoproject.com/zh-hans/3.2/faq/">FAQ</a></dt>
+    <dd>尝试查看 FAQ — 它包括了很多常见问题的答案</dd>
+
+    <dt><a href="/en/stable/genindex/">索引</a>, <a href="/en/stable/py-modindex/">模块索引</a>, or <a href="/en/stable/contents/">目录</a></dt>
+    <dd>查找特定信息时比较容易</dd>
+
+    <dt><a href="https://groups.google.com/group/django-users/">django-users mailing list</a></dt>
+    <dd>在 django-users 邮件列表存档中搜索信息，或者发布一个问题。</dd>
+
+    <dt><a href="irc://irc.libera.chat/django">#django IRC channel</a></dt>
+    <dd>在 #django IRC 频道上提问，或者搜索 IRC 历史找到相似的问题与解答。</dd>
+
+    <dt><a href="https://code.djangoproject.com/">Ticket tracker</a></dt>
+    <dd>在我们的 `ticket tracker`_ 中报告 Django 或 Django 文档的 Bug。</dd>
+  </dl>
+
+
+
+  <h2>下载：</h2>
+  <p>
+    离线 (Django 3.2):
+    <a href="https://media.djangoproject.com/docs/django-docs-3.2-zh-hans.zip">HTML</a> |
+    <a href="https://media.readthedocs.org/pdf/django/3.2.x/django.pdf">PDF</a> |
+    <a href="https://media.readthedocs.org/epub/django/3.2.x/django.epub">ePub</a>
+    <br>
+    <span class="quiet">
+      由 <a href="https://readthedocs.org/">Read the Docs</a> 提供。
+    </span>
+  </p>
+  -->
+
+</div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+<div role="contentinfo">
+  <div class="subfooter">
+    <div class="container">
+      <h1 class="visuallyhidden">Django Links</h1>
+
+      <div class="col learn">
+        <h2>Learn More</h2>
+        <ul>
+          <li><a href="https://www.djangoproject.com/start/overview/">About Django</a></li>
+
+          <li><a href="https://www.djangoproject.com/start/">Getting Started with Django</a></li>
+          <li><a href="https://docs.djangoproject.com/en/dev/internals/organization/">Team Organization</a></li>
+          <li><a href="https://www.djangoproject.com/foundation/">Django Software Foundation</a></li>
+          <li><a href="https://www.djangoproject.com/conduct/">Code of Conduct</a></li>
+          <li><a href="https://www.djangoproject.com/diversity/">Diversity Statement</a></li>
+        </ul>
+      </div>
+
+      <div class="col involved">
+        <h2>Get Involved</h2>
+        <ul>
+          <li><a href="https://www.djangoproject.com/community/">Join a Group</a></li>
+          <li><a href="https://docs.djangoproject.com/en/dev/internals/contributing/">Contribute to Django</a></li>
+          <li><a href="https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/">Submit a Bug</a></li>
+          <li><a href="https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues">Report a Security Issue</a></li>
+        </ul>
+      </div>
+
+      <div class="col follow last-child">
+        <h2>Follow Us</h2>
+        <ul>
+          <li><a href="https://github.com/django">GitHub</a></li>
+          <li><a href="https://twitter.com/djangoproject">Twitter</a></li>
+          <li><a href="https://www.djangoproject.com/rss/weblog/">News RSS</a></li>
+          <li><a href="https://groups.google.com/forum/#!forum/django-users">Django Users Mailing List</a></li>
+        </ul>
+      </div>
+
+      <div class="col follow last-child">
+        <h2>Support Us</h2>
+        <ul>
+          <li><a href="https://www.djangoproject.com/fundraising/">Sponsor Django</a></li>
+          <li><a href="https://django.threadless.com/" target="_blank">Official merchandise store</a></li>
+          <li><a href="http://127.0.0.1:8000/foundation/donate/#amazon-smile">Amazon Smile</a></li>
+          <li><a href="http://127.0.0.1:8000/foundation/donate/#benevity-giving">Benevity Workplace Giving Program</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="footer-logo">
+        <a class="logo" href="https://www.djangoproject.com/">Django</a>
+      </div>
+      <ul class="thanks">
+        <li>
+          <span>Hosting by</span> <a class="rackspace" href="https://www.rackspace.com/">Rackspace</a>
+        </li>
+        <li class="design"><span>Design by</span> <a class="threespot" href="https://www.threespot.com/">Threespot</a> <span class="ampersand">&amp;</span> <a class="andrevv" href="http://andrevv.com/">andrevv</a></li>
+      </ul>
+      <p class="copyright">© 2005-2021
+        <a href="https://www.djangoproject.com/foundation/"> Django Software
+        Foundation</a> and individual contributors. Django is a
+        <a href="https://www.djangoproject.com/trademarks/">registered
+        trademark</a> of the Django Software Foundation.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+    <script>
+    function extless(input) {
+        return input.replace(/(.*)\.[^.]+$/, '$1');
+    }
+    var require = {
+        shim: {
+            'jquery': [],
+            'jquery.inview': ["jquery"],
+            'jquery.payment': ["jquery"],
+            'jquery.flot': ["jquery"],
+            'jquery.unveil': ["jquery"],
+            'stripe': {
+              exports: 'Stripe'
+            }
+        },
+        paths: {
+            "jquery": extless("https://static.djangoproject.com/js/lib/jquery/dist/jquery.min.87e69028f78d.js"),
+            "jquery.inview": extless("https://static.djangoproject.com/js/lib/jquery.inview/jquery.inview.min.4edba1c65592.js"),
+            "jquery.payment": extless("https://static.djangoproject.com/js/lib/jquery.payment/lib/jquery.payment.e99c05ca79ae.js"),
+            "jquery.unveil": extless("https://static.djangoproject.com/js/lib/unveil/jquery.unveil.min.ac79eb277093.js"),
+            "jquery.flot": extless("https://static.djangoproject.com/js/lib/jquery-flot/jquery.flot.min.9964206e9d7f.js"),
+            "clipboard": extless("https://static.djangoproject.com/js/lib/clipboard/dist/clipboard.min.bd70fd596a23.js"),
+            "mod/floating-warning": extless("https://static.djangoproject.com/js/mod/floating-warning.a21b2abd2884.js"),
+            "mod/list-collapsing": extless("https://static.djangoproject.com/js/mod/list-collapsing.c1a08d3ef9e9.js"),
+            "mod/list-feature": extless("https://static.djangoproject.com/js/mod/list-feature.73529480f25b.js"),
+            "mod/mobile-menu": extless("https://static.djangoproject.com/js/mod/mobile-menu.841726ee903a.js"),
+            "mod/version-switcher": extless("https://static.djangoproject.com/js/mod/version-switcher.c28bb83972bb.js"),
+            "mod/search-key": extless("https://static.djangoproject.com/js/mod/search-key.f3c0a6fcfedd.js"),
+            "mod/stripe-change-card": extless("https://static.djangoproject.com/js/mod/stripe-change-card.682c710317a8.js"),
+            "mod/console-tabs": extless("https://static.djangoproject.com/js/mod/console-tabs.70ce882faaf3.js"),
+            "stripe-checkout": "https://checkout.stripe.com/checkout",
+            "stripe": "https://js.stripe.com/v3/?" // ? needed due to require.js
+        }
+    };
+    </script>
+    <script data-main="https://static.djangoproject.com/js/main.2f2c378dba28.js" src="./Sialuria, French type_files/require.177879fbe7dd.js.下载"></script>
+
+
+
+
+  
+</body></html>
